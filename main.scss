@@ -1,0 +1,139 @@
+$green: #7AC751;
+$blue: #00B7F1;
+$lightGray: #F7F8FA;
+
+// цвет текста
+$white: #FFFF;
+$gray: #555555;
+
+
+.header__topBlock {
+    display: flex;
+    padding-left: 135px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    background-color: $green;
+    color: white;
+    height: 50px;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+
+    div :nth-child(1) {
+        padding-left: 664px;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+        padding-left: 20px;
+    }
+}
+
+.header__middleBlock {
+    display: flex;
+    align-items: center;
+    margin-left: 135px;
+    height: 92px;
+}
+
+.header__middleBlock-search {
+    display: flex;
+    border: 2px solid $green;
+    width: 582px;
+    border-radius: 8px;
+    margin-left: 120px;
+
+    input {
+        border: none;
+        width: 403px;
+        padding-left: 25px;
+        border-radius: 8px;
+    }
+
+    button {
+        border: none;
+        border-left: 1.5px solid #E3E3E3;
+        background-color: #FFFF;
+        width: 123px;
+        height: 46px;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $green;
+        width: 53px;
+    }
+}
+
+.header__middleBlock-userInfo {
+    display: flex;
+    margin-left: 174px;
+
+    div {
+        margin-left: 20px;
+    }
+}
+
+.header__menu {
+    display: flex;
+    background-color: $lightGray;
+    height: 67px;
+    font-family: 'Rubik';
+
+    a {
+        font-size: 16px;
+        font-weight: 500;
+        color: $gray;
+        text-decoration: none;
+        margin-left: 65px;
+        padding-top: 25px;
+    }
+
+    a:nth-child(2) {
+        margin-left: 82px;
+    }
+}
+
+.header__menu-allCollections {
+    display: flex;
+    align-items: center;
+    height: 67px;
+    width: 260px;
+    margin-left: 135px;
+    font-size: 16px;
+    font-weight: 500;
+    color: $white;
+    background-color: $green;
+
+    img {
+        margin-left: 33px;
+    }
+
+    p {
+        margin-left: 23px;
+        margin-top: 20px;
+    }
+}
+
+nav {
+    display: grid;
+    margin-left: 135px;
+    width: 260px;
+    background-color: $lightGray;
+
+    a {
+        height: 41px;
+        font-family: 'Rubik';
+        font-size: 14px;
+        font-weight: 400;
+        color: $gray;
+        text-decoration: none;
+        padding-left: 29px;
+        padding-top: 10px;
+        border-top: 0.8px solid #E3E3E3;
+        box-sizing: border-box;
+    }
+}
