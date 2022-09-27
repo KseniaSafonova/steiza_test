@@ -153,4 +153,200 @@ nav a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.mainSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainImgSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 899px;
+  height: 439px;
+  background: linear-gradient(103.4deg, rgba(241, 250, 255, 0.88) 0.89%, #F1FAFF 101.61%);
+  border-radius: 1px;
+  margin-top: 12px;
+  margin-left: 11px;
+}
+
+.mainImgSection__leftBlock {
+  margin-top: 73px;
+  margin-left: 47px;
+  border: 1px solid red;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.mainImgSection__leftBlock .mainImgSection__leftBlock-title {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #7AC751;
+}
+
+.mainImgSection__leftBlock img {
+  margin-top: 6px;
+}
+
+.mainImgSection__leftBlock .mainImgSection__leftBlock-discount {
+  margin-top: 29px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  color: rgba(81, 81, 81, 0.71);
+}
+
+.mainImgSection__leftBlock button {
+  background-color: #7AC751;
+  color: #FFFF;
+  border-radius: 5px;
+  border: none;
+  width: 129px;
+  height: 40px;
+  font-family: 'Mulish';
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 35px;
+}
+
+.mainImgSection__middleBlock {
+  margin-top: 36px;
+  margin-left: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 50px;
+  border: 1px solid red;
+}
+
+.mainImgSection__rightBlock {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 58px;
+  border: 1px solid red;
+}
+
+.mainImgSection__rightBlock .mainImgSection__rightBlock-img {
+  display: -ms-grid;
+  display: grid;
+  width: 98px;
+  height: 91.47px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.56)));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.56) 100%);
+  border: 2px solid #FFFFFF;
+  border-radius: 8px;
+  padding-top: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  color: #7AC751;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: 'Rubik';
+}
+
+.mainImgSection__rightBlock img {
+  margin: auto;
+}
+
+.mainImgSection__bottomBlock {
+  text-align: center;
+}
+
+.main__mainInfo {
+  margin-left: 27px;
+  margin-top: 69px;
+}
+
+.main__mainInfo img {
+  margin-left: 107px;
+}
+
+.main__discount {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 133px;
+  margin-top: 73px;
+  -ms-grid-columns: 669px 485px;
+      grid-template-columns: 669px 485px;
+  -ms-grid-rows: 250px 250px;
+      grid-template-rows: 250px 250px;
+  -webkit-column-gap: 19px;
+          column-gap: 19px;
+  row-gap: 17px;
+}
+
+.main__discount .main__discount-1 {
+  background-image: url("/discount1.png");
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/3;
+}
+
+.main__discount .main__discount-2 {
+  background-image: url("/discount2.png");
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.main__discount .main__discount-3 {
+  background-image: url("/discount3.png");
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.main__discount .main__discount-title {
+  font-family: Mulish;
+  font-size: 22px;
+  font-weight: 700;
+  color: #555555;
+}
+
+.main__discount .main__discount-discount {
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #7AC751;
+  margin-top: 8px;
+}
+
+.main__discount .main__discount-more {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  margin-top: 10px;
+}
+
+.main__discount .main__discount-about1 {
+  margin-top: 63px;
+  margin-left: 31px;
+}
+
+.main__discount .main__discount-about2 {
+  margin-top: 59px;
+  margin-left: 24px;
+}
+
+.main__discount .main__discount-about3 {
+  margin-top: 37px;
+  margin-left: 24px;
+}
 /*# sourceMappingURL=main.css.map */
