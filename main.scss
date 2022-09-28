@@ -18,28 +18,34 @@ $gray: #555555;
     font-size: 16px;
     font-weight: 400;
 
-    div :nth-child(1) {
-        // margin-left: 684px;
-    }
-
     a {
         color: $white;
         text-decoration: none;
-        // padding-left: 20px;
+
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: #FFFFFF;
+        }
     }
 
     span {
-        // margin-left: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
 .header__topBlock-leftBlock {
     margin-left: 135px;
-    width: 204px;
+    width: 214px;
 }
 
 .header__topBlock-rightBlock {
-    margin-left: 684px;
+    margin-left: 644px;
+
+    img {
+        margin-left: 8px;
+        margin-bottom: 2px;
+    }
 }
 
 .header__middleBlock {
@@ -105,6 +111,14 @@ $gray: #555555;
     }
 }
 
+.header__middleBlock-number {
+    background-color: $green;
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    position: absolute;
+}
+
 .header__middleBlock-userInfo {
     display: flex;
     margin-left: 174px;
@@ -127,6 +141,11 @@ $gray: #555555;
         text-decoration: none;
         margin-left: 65px;
         padding-top: 25px;
+
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: $green;
+        }
     }
 
     a:nth-child(2) {
@@ -172,6 +191,10 @@ nav {
         padding-top: 10px;
         border-top: 0.8px solid #E3E3E3;
         box-sizing: border-box;
+
+        &:hover {
+            color: $green;
+        }
     }
 }
 
@@ -192,34 +215,19 @@ nav {
 .mainImgSection__topBlock {
     display: flex;
     height: 410px;
-    // position: relative;
-    // z-index: 1;
-    // width: 899px;
-    // height: 439px;
-    // background: linear-gradient(103.4deg, rgba(241, 250, 255, 0.88) 0.89%, #F1FAFF 101.61%);
-    // border-radius: 1px;
-    // margin-top: 12px;
-    // margin-left: 11px;
 }
 
 .mainImgSection__bottomBlock {
-    // border: 1px solid red;
     height: 15px;
     margin-bottom: 22px;
     box-sizing: border-box;
     text-align: center;
-    // position: relative;
-    // z-index: 2;
-    // border: 1px solid red;
 }
 
 .mainImgSection__leftBlock {
     margin-top: 73px;
     margin-left: 47px;
-    // border: 1px solid red;
     box-sizing: border-box;
-    // margin-bottom: 50px;
-    // height: 255px;
 
     .mainImgSection__leftBlock-title {
         font-family: 'Rubik';
@@ -260,15 +268,12 @@ nav {
     margin-top: 36px;
     margin-left: 16px;
     box-sizing: border-box;
-    // margin-bottom: 50px;
-    // border: 1px solid red;
 }
 
 
 .mainImgSection__rightBlock {
     display: grid;
     padding-top: 58px;
-    // border: 1px solid red;
     height: 322px;
 
     .mainImgSection__rightBlock-img {
@@ -366,8 +371,12 @@ nav {
         font-family: Mulish;
         font-size: 16px;
         font-weight: 400;
-        color: #757575;
         margin-top: 10px;
+
+        a {
+            text-decoration: none;
+            color: #757575;
+        }
     }
 
     .main__discount-about1 {
