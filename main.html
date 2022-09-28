@@ -16,14 +16,15 @@
     <title>Document</title>
 </head>
 
-<!-- правый блок header, input, корзина, кнопки в main -->
+<!-- правый блок header, корзина -->
 
 <body>
     <header class="header">
         <div class="header__topBlock">
             <div class="header__topBlock-leftBlock">Welcome to our online shop</div>
             <div class="header__topBlock-rightBlock">
-                <a href="">English (USD) |</a>
+                <a href="">English (USD) <img src="englishImg.svg" alt=""></a>
+                <span>|</span>
                 <a href="">Login or Sign up</a>
             </div>
         </div>
@@ -33,8 +34,8 @@
             </div>
             <div class="header__middleBlock-search">
                 <input type="text" placeholder="Search here">
-                <button>Categories</button>
-                <div class="header__middleBlock-img"><img src="search.png" alt="search"></div>
+                <button>Categories <img src="categoriesImg.svg" alt="" class="header__middleBlock-img"></button>
+                <div><img src="search.png" alt="search"></div>
             </div>
             <div class="header__middleBlock-userInfo">
                 <div class="header__middleBlock-shop">
@@ -75,33 +76,35 @@
             <a href="">Benches</a>
         </nav>
         <section class="mainImgSection">
-            <div class="mainImgSection__leftBlock">
-                <div class="mainImgSection__leftBlock-title">TOP COLLECTIONS 2022</div>
-                <img src="title.png" alt="We Serve Your Dream Furniture">
-                <div class="mainImgSection__leftBlock-discount">Get 50% off all products</div>
-                <button>SHOP NOW</button>
+            <div class="mainImgSection__topBlock">
+                <div class="mainImgSection__leftBlock">
+                    <div class="mainImgSection__leftBlock-title">TOP COLLECTIONS 2022</div>
+                    <img src="title.png" alt="We Serve Your Dream Furniture">
+                    <div class="mainImgSection__leftBlock-discount">Get 50% off all products</div>
+                    <button>SHOP NOW</button>
+                </div>
+                <div class="mainImgSection__middleBlock"><img src="furniture.png" alt=""></div>
+                <div class="mainImgSection__rightBlock">
+                    <div class="mainImgSection__rightBlock-img">
+                        <img src="top.png" alt="$120">
+                        <div>$120</div>
+                    </div>
+                    <div class="mainImgSection__rightBlock-img">
+                        <img src="middle.png" alt="">
+                        <div>$180</div>
+                    </div>
+                    <div class="mainImgSection__rightBlock-img">
+                        <img src="bottom.png" alt="">
+                        <div>$250</div>
+                    </div>
+                </div>
             </div>
-            <div class="mainImgSection__middleBlock"><img src="furniture.png" alt=""></div>
-            <div class="mainImgSection__rightBlock">
-                <div class="mainImgSection__rightBlock-img">
-                    <img src="top.png" alt="$120">
-                    <div>$120</div>
-                </div>
-                <div class="mainImgSection__rightBlock-img">
-                    <img src="middle.png" alt="">
-                    <div>$180</div>
-                </div>
-                <div class="mainImgSection__rightBlock-img">
-                    <img src="bottom.png" alt="">
-                    <div>$250</div>
-                </div>
-            </div>
-            <!-- <div class="mainImgSection__bottomBlock">
+            <div class="mainImgSection__bottomBlock">
                 <button class="mainImgSection__button"></button>
                 <button class="mainImgSection__button"></button>
                 <button class="mainImgSection__activeButton"></button>
                 <button class="mainImgSection__button"></button>
-            </div> -->
+            </div>
         </section>
     </div>
     <main class="main">
