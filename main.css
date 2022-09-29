@@ -314,6 +314,18 @@ nav a:hover {
   margin-top: 6px;
 }
 
+.mainImgSection__leftBlock .mainImgSection__leftBlock-mine {
+  background-image: url("images/underline.png");
+  background-repeat: no-repeat;
+  background-position: right 55px bottom;
+  font-family: 'Rubik';
+  font-size: 40px;
+  font-weight: 500;
+  color: #2F2F2F;
+  margin-top: 6px;
+  height: 94px;
+}
+
 .mainImgSection__leftBlock .mainImgSection__leftBlock-discount {
   margin-top: 29px;
   font-family: 'Mulish';
@@ -400,12 +412,39 @@ nav a:hover {
 }
 
 .main__mainInfo {
-  margin-left: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 26px;
   margin-top: 69px;
 }
 
-.main__mainInfo img {
+.main__mainInfo-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: 107px;
+}
+
+.main__mainInfo-description {
+  display: -ms-grid;
+  display: grid;
+  width: 150px;
+  margin-left: 10px;
+}
+
+.main__mainInfo-description span {
+  font-family: 'Rubik';
+  font-size: 20px;
+  font-weight: 500;
+  color: #555555;
+  padding-top: 5px;
+}
+
+.main__mainInfo-description span:nth-child(2) {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(81, 81, 81, 0.71);
 }
 
 .main__discount {
@@ -430,6 +469,14 @@ nav a:hover {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1/3;
+}
+
+.main__discount .main__discount-1 div:nth-child(1) {
+  font-weight: 700;
+}
+
+.main__discount .main__discount-1 div:nth-child(2) {
+  font-weight: 400;
 }
 
 .main__discount .main__discount-2 {
@@ -463,9 +510,12 @@ nav a:hover {
   font-family: Mulish;
   font-size: 20px;
   font-weight: 600;
-  line-height: 26px;
   color: #7AC751;
   margin-top: 8px;
+}
+
+.main__discount .main__discount-discount span {
+  font-weight: 800;
 }
 
 .main__discount .main__discount-more {
