@@ -111,6 +111,38 @@ $gray: #555555;
     }
 }
 
+#header__categoriesList {
+    position: absolute;
+    margin-left: 673px;
+    margin-top: 377px;
+
+    a {
+        height: 41px;
+        font-family: 'Rubik';
+        font-size: 14px;
+        font-weight: 400;
+        color: $gray;
+        text-decoration: none;
+        background-color: #FFFFFF;
+        width: 123px;
+        box-sizing: border-box;
+        padding: 15px;
+        border-bottom: 1px solid $lightGray;
+
+        &:hover {
+            color: $green;
+        }
+    }
+}
+
+#closelist {
+    background-color: $green;
+    border: none;
+    width: 20px;
+    margin-left: 103px;
+    border-radius: 8px;
+}
+
 .header__middleBlock-number {
     background-color: $green;
     height: 12px;
@@ -261,6 +293,10 @@ nav {
         font-size: 16px;
         font-weight: 700;
         margin-top: 35px;
+
+        &:hover {
+            color: $gray;
+        }
     }
 }
 
@@ -304,6 +340,10 @@ nav {
     background: rgba(122, 199, 81, 0.29);
     border: none;
     margin-left: 15px;
+
+    &:hover {
+        background-color: $green;
+    }
 }
 
 .mainImgSection__activeButton {

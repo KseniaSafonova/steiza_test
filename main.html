@@ -10,8 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -32,8 +30,20 @@
             </div>
             <div class="header__middleBlock-search">
                 <input type="text" placeholder="Search here">
-                <button>Categories <img src="categoriesImg.svg" alt="" class="header__middleBlock-img"></button>
+                <button onclick="showList()">
+                    Categories
+                    <img src="categoriesImg.svg" alt="..." class="header__middleBlock-img"></button>
                 <div><img src="search.png" alt="search"></div>
+            </div>
+            <div id="header__categoriesList" style="display: none;">
+                <a href="">Furniture</a>
+                <a href="">Amrature</a>
+                <a href="">Tabble</a>
+                <a href="">Chair</a>
+                <a href="">Sofa</a>
+                <a href="">Mirrors</a>
+                <a href="">Stools</a>
+                <a href="">Benches</a>
             </div>
             <div class="header__middleBlock-userInfo">
                 <div class="header__middleBlock-shop">
@@ -136,8 +146,20 @@
                 </div>
             </div>
         </section>
-        <section>TRENDING</section>
     </main>
+    <script>
+
+        let list = document.getElementById('header__categoriesList');
+
+        function showList() {
+            if (list.style.display == 'none') {
+                document.getElementById('header__categoriesList').style.display = 'grid';
+            } else {
+                document.getElementById('header__categoriesList').style.display = 'none';
+            }
+        }
+
+    </script>
 </body>
 
 </html>
