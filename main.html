@@ -30,6 +30,7 @@
             </div>
             <div class="header__middleBlock-search">
                 <input type="text" placeholder="Search here">
+                <!-- Вместо <select> и <option> кнопка с обработчиком onclick + div -->
                 <button onclick="showList()">
                     Categories
                     <img src="images/categoriesImg.svg" alt="..." class="header__middleBlock-img"></button>
@@ -96,6 +97,7 @@
                 </div>
                 <div class="mainImgSection__middleBlock"><img src="images/furniture.png" alt=""></div>
                 <div class="mainImgSection__rightBlock">
+                    <!-- В блоках убраны нижние надписи, так как размер шрифта маленький, что "утяжеляет" картинку -->
                     <div class="mainImgSection__rightBlock-img">
                         <img src="images/top.png" alt="$120">
                         <div>$120</div>
@@ -179,6 +181,8 @@
             </div>
         </section>
     </main>
+
+    <!-- Выпадающий список в header -->
     <script>
 
         let list = document.getElementById('header__categoriesList');
